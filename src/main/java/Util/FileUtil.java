@@ -23,6 +23,6 @@ public class FileUtil {
         } catch (IOException e) {
         }
 
-        return sql.toString();
+        return sql.toString().trim();
     }
 }
